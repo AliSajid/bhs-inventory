@@ -1,6 +1,12 @@
 {
   "name": "bhs-inventory",
   "version": "0.0.1",
+  "author": "Ali Sajid Imami <Ali.Sajid.Imami@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AliSajid/bhs-inventory.git"
+  },
+  "license" : "GPL-3.0-or-later",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
