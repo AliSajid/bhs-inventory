@@ -4,15 +4,15 @@ export function App() {
   return (
     <>
       <Logo />
-      <p>Hello Vite + Preact!</p>
+      <p>Hello Inventory</p>
       <p>
         <a
           class="link"
-          href="https://preactjs.com/"
+          href="https://google.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Preact
+          Google
         </a>
       </p>
     </>
