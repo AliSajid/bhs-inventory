@@ -4,9 +4,10 @@ import { NavBar } from './navbar';
 export function App() {
   return (
     <>
-      <Logo />
+      <div className="flex self-center">
       <NavBar />
-      <p>Hello Inventory</p>
+      </div>
+      <p className='text-center text-lg'>Hello Inventory</p>
       <p>
         <a
           class="link"
