@@ -9,13 +9,13 @@ export const SideBarIcon = (props: any) => {
 export const NavBar = (props: any) => {
 return <div className="fixed top-0 left-0 h-screen w-16 m-0 flex flex-col bg-gray-900 text-white shadow-lg">
     <ul>
-        <li className="m-4">
+        <li>
 <SideBarIcon icon={<CgGoogle size={28}/>} link="https://google.com"></SideBarIcon>
         </li>
-        <li className="m-4">
+        <li>
         <SideBarIcon icon={<CgFacebook size={28}/>} link="https://facebook.com"></SideBarIcon>
         </li>
-        <li className="m-4">
+        <li>
         <SideBarIcon icon={<CgTwitter size={28}/>} link="https://twitter.com"></SideBarIcon>
         </li>
     </ul>

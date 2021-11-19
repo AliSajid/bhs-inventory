@@ -1,23 +1,12 @@
-import { Logo } from './logo';
 import { NavBar } from './navbar';
 
 export function App() {
   return (
     <>
-      <div className="flex self-center">
+      <div className="flex-auto">
       <NavBar />
       </div>
-      <p className='text-center text-lg'>Hello Inventory</p>
-      <p>
-        <a
-          class="link"
-          href="https://google.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google
-        </a>
-      </p>
+      <p className='text-center text-2xl'>Hello Inventory</p>
     </>
   );
 }
