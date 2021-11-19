@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/AliSajid/bhs-inventory.git"
   },
-  "license" : "GPL-3.0-or-later",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
