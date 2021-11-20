@@ -4,9 +4,9 @@ export function App() {
   return (
     <>
       <div className="flex-auto">
-      <NavBar />
+        <NavBar />
       </div>
-      <p className='text-center text-2xl'>Hello Inventory</p>
+      <p className="text-center text-2xl">Hello Inventory</p>
     </>
   );
 }
