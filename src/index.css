@@ -10,6 +10,6 @@
     hover:bg-gray-400 hover:text-white
     transition-all duration-300 ease-linear
     rounded-2xl hover:rounded-lg
-    cursor-pointer
+    cursor-pointer;
   }
 }
