@@ -1,6 +1,11 @@
 import { CgTwitter, CgFacebook, CgGoogle } from 'react-icons/cg';
 
-export const SideBarIcon = (props: any) => {
+interface SideBarIconProps {
+  link: string;
+  icon: JSX.Element;
+}
+
+export const SideBarIcon = (props: SideBarIconProps) => {
   return (
     <div className="sidebar-icon">
       <a href={props.link}> {props.icon} </a>
