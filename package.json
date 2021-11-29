@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "preact build",
-    "serve": "firebase emulators:start",
+    "serve": "firebase emulators:start --project dev",
     "dev": "preact watch",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' && prettier --write src/",
     "test": "jest ./tests"
