@@ -4,8 +4,12 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "dist",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
       {
         "source": "**",
@@ -18,14 +22,14 @@
       "port": 9099
     },
     "firestore": {
-      "port": 9098
+      "port": 8080
     },
     "hosting": {
       "port": 5000
     },
     "ui": {
       "enabled": true,
-      "port": 9090
+      "port": 5001
     }
   }
 }

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "bhs-inventory"
-  }
+    "prod": "bhs-inventory-production",
+    "dev": "bhs-inventory-dev"
+  },
+  "targets": {}
 }
