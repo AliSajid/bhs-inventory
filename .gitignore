@@ -8,3 +8,4 @@ dist-ssr
 coverage
 build
 size-plugin.json
+.env
