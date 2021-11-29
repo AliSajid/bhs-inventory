@@ -14,11 +14,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
-      - run: npm ci
-      - run: npm run build
+      - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
-          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BHS_INVENTORY }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BHS_INVENTORY_DEV }}"
           channelId: preview
           projectId: bhs-inventory-dev
