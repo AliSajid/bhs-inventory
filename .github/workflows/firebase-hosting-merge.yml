@@ -14,9 +14,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "14"
-      - uses: codecov/codecov-action@v1
+      - uses: codecov/codecov-action@v2
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
+          directory: coverage
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
