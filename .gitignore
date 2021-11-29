@@ -9,3 +9,4 @@ coverage
 build
 size-plugin.json
 .env
+target
