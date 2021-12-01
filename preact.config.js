@@ -1,8 +1,11 @@
+import Dotenv from 'dotenv-webpack';
+
 const tailwind = require("preact-cli-tailwind");
+
 
 module.exports = (config, env, helpers) => {
   config = tailwind(config, env, helpers);
-//  config.resolve.alias.src = env.src;
+  config.plugins.push(new Dotenv({path: "./.env"}));
   config.resolve.alias = {
     "src": env.src,
     "react": "preact/compat",
