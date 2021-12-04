@@ -4,6 +4,7 @@ import { AlertOctagon } from "preact-feather";
 
 const Notfound: FunctionalComponent = () => {
   return (
+
     <div className="flex-mb-8 overflow-hidden h-screen bg-gray-100">
       <div className="w-full h-12 p-12 left-0">
         <h1 className="mx-auto text-red-600 font-bold text-center text-4xl">
