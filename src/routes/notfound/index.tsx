@@ -4,8 +4,8 @@ import { AlertOctagon } from "preact-feather";
 
 const Notfound: FunctionalComponent = () => {
   return (
-    <div className="flex-mb-4 overflow-hidden">
-      <div className="w-full h-12 p-12">
+    <div className="flex-mb-8 overflow-hidden h-screen bg-gray-100">
+      <div className="w-full h-12 p-12 left-0">
         <h1 className="mx-auto text-red-600 font-bold text-center text-4xl">
           Page Not Found
         </h1>
@@ -20,14 +20,11 @@ const Notfound: FunctionalComponent = () => {
           We apologize for the inconvenience.
         </p>
       </div>
-
-      <div className="mx-auto w-full h-12 p-8 ml-4 mr-4 object-center">
-        <button className="rounded shadow inline-block border-2 bg-blue-400">
-          <Link href="/" class="p-4 text-white mx-10">
-            Go to Home
-          </Link>
-        </button>
-      </div>
+      <div className="w-full h-12 p-12 text-center">
+        <Link href="/" class="shadow m-2 bg-blue-500 p-2 border-2 text-white rounded-md hover:bg-blue-100 hover:text-black hover:border-black">
+           Go To Home
+        </Link>
+</div>
     </div>
   );
 };
