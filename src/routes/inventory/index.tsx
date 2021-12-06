@@ -3,7 +3,7 @@ import { h, FunctionalComponent } from 'preact';
 const Inventory: FunctionalComponent = () => {
     return (
         <div>
-            This is Signin Page
+            This is Inventory Page.
         </div>
     )
 }
