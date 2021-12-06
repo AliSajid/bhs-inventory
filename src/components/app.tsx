@@ -14,13 +14,13 @@ const App: FunctionalComponent = () => {
     <div id="preact_root" className="h-screen flex flex-col">
       <Header />
       <div id="main" className="flex-1 overflow-y-auto">
-      <Router>
-        <Route path="/" component={Home} />
+        <Router>
+          <Route path="/" component={Home} />
           <Route path="/inventory/" component={Inventory} />
           <Route path="/trends/" component={Trends} />
           <Route path="/signin/" component={SignIn} />
-        <NotFoundPage default />
-      </Router>
+          <NotFoundPage default />
+        </Router>
       </div>
       <Footer />
     </div>
