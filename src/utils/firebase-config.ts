@@ -20,6 +20,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
-export const analytics = getAnalytics(app);
-export const db = getFirestore(app);
-export const perf = getPerformance(app);
+export const analytics = getAnalytics();
+export const db = getFirestore();
+export const perf = getPerformance();
