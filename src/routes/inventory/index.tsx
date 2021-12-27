@@ -1,5 +1,5 @@
 import { h, FunctionalComponent } from "preact";
-import { db } from "src/utils/firebase-config";
+import { db } from "src/utils/firebase";
 import {
   doc,
   collection,
@@ -7,13 +7,18 @@ import {
   addDoc,
   serverTimestamp,
   where,
+  getDoc,
 } from "firebase/firestore";
 
-const getInventory: Function = () => {
-  console.log("Hello, world");
+export const getInventory = async () => {
+  const allData = await getDocs(collection(db, "items"));
+  allData.forEach((doc) => {
+    console.log(doc.id, " => ", doc.data());
+  });
 };
 
 const Inventory: FunctionalComponent = () => {
+  getInventory();
   return <div>This is Inventory Page.</div>;
 };
 
