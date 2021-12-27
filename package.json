@@ -28,7 +28,7 @@
   "dependencies": {
     "firebase": "^9.6.1",
     "idb": "^7.0.0",
-    "preact": "^10.3.1",
+    "preact": "^10.6.2",
     "preact-feather": "^4.2.1",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1",
