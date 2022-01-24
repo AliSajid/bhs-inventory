@@ -1,5 +1,5 @@
 import { h, FunctionalComponent } from "preact";
-import { db } from "src/utils/firebase";
+import { db } from "../../utils/firebase";
 import {
   doc,
   collection,
