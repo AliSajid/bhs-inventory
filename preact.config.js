@@ -1,5 +1,6 @@
-const tailwind = require("preact-cli-tailwind");
-const path = require('path');
+//const tailwind = require("preact-cli-tailwind");
+import path from 'path';
+import tailwind from 'preact-cli-tailwind';
 
 
 import envVars from 'preact-cli-plugin-env-vars';
